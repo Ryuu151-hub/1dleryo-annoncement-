@@ -1,6 +1,7 @@
 {
   "id": "update-required-v4",
   "type": "update_required",
+  "enabled": false,
   "badge": "Update Required",
   "headline": "Your Extension Is Outdated",
   "subtext": "Some features may stop working until you update to the latest version.",
