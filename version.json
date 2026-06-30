@@ -3,5 +3,5 @@
   "latestVersion": "v4",
   "previousVersion": "v3",
   "minimumRequiredVersion": "v4",
-  "forceUpdate": false
+  "forceUpdate": true
 }
