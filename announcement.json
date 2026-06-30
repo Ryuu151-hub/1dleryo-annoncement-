@@ -10,5 +10,13 @@
     "label": "Download Update",
     "url": "https://t.me/loverielle76"
   },
-  "footnote": "1DLERYU X TIKTOK · IDLERYU STUDIO"
+  "footnote": "1DLERYU X TIKTOK · IDLERYU STUDIO",
+  "behavior": {
+    "mode": "hard_block",
+    "fullscreen": true,
+    "backdropBlurPx": 18,
+    "dismissible": false,
+    "blockInteraction": true,
+    "blockFileUpload": true
+  }
 }
