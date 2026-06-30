@@ -1,14 +1,10 @@
 {
-  "id": "update-required-v4",
-  "type": "update_required",
-  "badge": "Update Required",
-  "headline": "Your Extension Is Outdated",
-  "subtext": "Some features may stop working until you update to the latest version.",
-  "versionFrom": "v3",
-  "versionTo": "v4",
-  "cta": {
-    "label": "Download Update",
+  "enabled": true,
+  "type": "announcement",
+  "title": "Welcome to My Extension",
+  "message": "Thank you for using 1DLERYU X TikTok. Enjoy the latest features and stay tuned for future updates!",
+  "button": {
+    "text": "Get Started",
     "url": "https://t.me/loverielle76"
-  },
-  "footnote": "1DLERYU X TIKTOK · IDLERYU STUDIO"
+  }
 }
