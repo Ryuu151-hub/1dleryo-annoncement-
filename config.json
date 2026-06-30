@@ -1,9 +1,11 @@
 {
   "downloadUrl": "https://t.me/loverielle76",
+
   "branding": {
     "name": "1DLERYU X TIKTOK",
     "studio": "IDLERYU STUDIO"
   },
+
   "theme": {
     "background": "#0c0c0c",
     "card": "#161616",
@@ -12,11 +14,23 @@
     "textMuted": "#888888",
     "textDim": "#555555",
     "accent": "#f0900a",
-    "accentSoft": "rgba(240, 144, 10, 0.12)",
-    "accentLine": "rgba(240, 144, 10, 0.35)"
+    "accentSoft": "rgba(240,144,10,0.12)",
+    "accentLine": "rgba(240,144,10,0.35)"
   },
+
   "font": {
     "family": "Inter",
     "weights": [400, 500, 600, 700, 800, 900]
+  },
+
+  "layout": {
+    "fullscreen": true,
+    "width": "100vw",
+    "height": "100vh",
+    "maxWidth": "100vw",
+    "maxHeight": "100vh",
+    "borderRadius": 0,
+    "backdropBlur": 24,
+    "padding": 32
   }
 }
