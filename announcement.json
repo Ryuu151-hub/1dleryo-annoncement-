@@ -1,35 +1,57 @@
 {
+  "success": true,
   "enabled": true,
-  "type": "welcome",
   "version": "3.0.0",
-  "title": "THANKS FOR DOWNLOADING",
-  "subtitle": "1dleryu X TikTok V3",
-  "icon": "❤️",
-  "theme": {
-    "background": "#0c0c0c",
-    "card": "#161616",
-    "border": "#2a2a2a",
-    "primary": "#f0900a",
-    "text": "#f0f0f0",
-    "muted": "#888888",
-    "button": "#1c1c1c",
-    "buttonBorder": "#333333",
-    "buttonText": "#ffffff"
-  },
-  "content": {
-    "heading": "Welcome!",
-    "message": "Thank you for downloading my extension. Your support helps me continue improving the project with new updates, better performance, and additional features.",
-    "footer": "Enjoy using 1dleryu X TikTok V3 ❤️"
-  },
-  "buttons": [
-    {
-      "text": "Join Telegram",
-      "url": "https://t.me/your_channel"
+  "announcement": {
+    "id": "welcome-v3",
+    "type": "welcome",
+    "priority": 100,
+    "showOnce": true,
+    "dismissible": true,
+    "theme": {
+      "background": "#0c0c0c",
+      "card": "#161616",
+      "cardSecondary": "#1a1a1a",
+      "border": "#2a2a2a",
+      "primary": "#f0900a",
+      "primaryGlow": "rgba(240,144,10,0.25)",
+      "text": "#f0f0f0",
+      "textMuted": "#888888",
+      "button": "#1c1c1c",
+      "buttonBorder": "#333333",
+      "buttonText": "#ffffff"
     },
-    {
-      "text": "Close",
-      "action": "close"
+    "header": {
+      "title": "THANKS FOR DOWNLOADING",
+      "subtitle": "1dleryu X TikTok V3"
+    },
+    "content": {
+      "title": "Welcome!",
+      "message": "Thank you for downloading my extension. I truly appreciate your support. I will continue improving the extension with new features, better performance, bug fixes, and future updates."
+    },
+    "cards": [
+      {
+        "title": " Video Patcher",
+        "description": "Patch your videos before uploading to TikTok."
+      },
+      {
+        "title": " FFmpeg FPS Tool",
+        "description": "Apply FPS manipulation with a single click."
+      },
+      {
+        "title": " Automatic Updates",
+        "description": "Receive announcements and future improvements automatically."
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Continue",
+        "action": "close",
+        "primary": true
+      }
+    ],
+    "footer": {
+      "text": "Made with by Idleryu Studio"
     }
-  ],
-  "showOnce": true
+  }
 }
