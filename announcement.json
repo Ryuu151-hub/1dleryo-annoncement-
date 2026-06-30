@@ -1,15 +1,35 @@
 {
-  "id": "update-required-v4",
-  "type": "update_required",
-  "enabled": false,
-  "badge": "Update Required",
-  "headline": "Your Extension Is Outdated",
-  "subtext": "Some features may stop working until you update to the latest version.",
-  "versionFrom": "v3",
-  "versionTo": "v4",
-  "cta": {
-    "label": "Download Update",
-    "url": "https://t.me/loverielle76"
+  "enabled": true,
+  "type": "welcome",
+  "version": "3.0.0",
+  "title": "THANKS FOR DOWNLOADING",
+  "subtitle": "1dleryu X TikTok V3",
+  "icon": "❤️",
+  "theme": {
+    "background": "#0c0c0c",
+    "card": "#161616",
+    "border": "#2a2a2a",
+    "primary": "#f0900a",
+    "text": "#f0f0f0",
+    "muted": "#888888",
+    "button": "#1c1c1c",
+    "buttonBorder": "#333333",
+    "buttonText": "#ffffff"
   },
-  "footnote": "1DLERYU X TIKTOK · IDLERYU STUDIO"
+  "content": {
+    "heading": "Welcome!",
+    "message": "Thank you for downloading my extension. Your support helps me continue improving the project with new updates, better performance, and additional features.",
+    "footer": "Enjoy using 1dleryu X TikTok V3 ❤️"
+  },
+  "buttons": [
+    {
+      "text": "Join Telegram",
+      "url": "https://t.me/your_channel"
+    },
+    {
+      "text": "Close",
+      "action": "close"
+    }
+  ],
+  "showOnce": true
 }
