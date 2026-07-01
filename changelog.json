@@ -1,14 +1,21 @@
 {
-  "versions": [
+  "entries": [
     {
-      "version": "v4",
-      "date": "",
-      "changes": []
+      "version": "3.5",
+      "date": "2026-07-01",
+      "changes": [
+        "Fixed FPS patch audio desync on some devices",
+        "Rebuilt sample table generation for faster large-file uploads",
+        "Added announcement banner system"
+      ]
     },
     {
-      "version": "v3",
-      "date": "",
-      "changes": []
+      "version": "3.4",
+      "date": "2026-06-15",
+      "changes": [
+        "Improved MP4 box parser reliability",
+        "Minor UI fixes"
+      ]
     }
   ]
 }
