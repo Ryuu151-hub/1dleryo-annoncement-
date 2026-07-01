@@ -28,7 +28,7 @@
     "buttons": [
       {
         "text": "Join Discord",
-        "action": "open",
+        "action": "close",
         "url": "https://discord.gg/your-invite",
         "primary": true
       },
