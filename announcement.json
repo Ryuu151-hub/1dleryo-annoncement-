@@ -1,64 +1,48 @@
 {
   "enabled": true,
-  "id": "announcement-v3.5",
-
-  "theme": {
-    "background": "#0c0c0c",
-    "card": "#161616",
-    "cardSecondary": "#1a1a1a",
-    "border": "#2a2a2a",
-    "accent": "#f0900a",
-    "text": "#f0f0f0",
-    "textMuted": "#8a8a8a",
-    "blur": true
-  },
-
+  "blockedVersions": [],
   "announcement": {
-    "enabled": true,
-    "showOnce": true,
-    "title": "Welcome to 1dleryu X TikTok V3.5",
-    "subtitle": "Thanks for downloading!",
-    "message": "We've improved performance, stability, and added a new update system.",
-    "button": {
-      "text": "Continue",
-      "action": "close"
-    }
-  },
-
-  "update": {
-    "enabled": true,
-    "latestVersion": "3.5",
-    "minimumVersion": "3.5",
-    "forceUpdate": true,
-
-    "blacklist": [
-      "3.5"
-    ],
-
-    "title": "Update Required",
-    "message": "This version is no longer supported. Please update to continue.",
-
-    "buttons": {
-      "update": {
-        "text": "Update Now",
-        "url": "https://t.me/loverielle76"
+    "badge": "UPDATE",
+    "header": {
+      "title": "WHAT'S NEW",
+      "subtitle": "v3.5 changelog"
+    },
+    "content": {
+      "title": "New patcher improvements",
+      "message": "This update fixes FPS desync on some devices and improves upload stability."
+    },
+    "cards": [
+      {
+        "title": "FPS patch fix",
+        "description": "Audio no longer desyncs after ratio changes."
       },
-      "cancel": {
-        "enabled": false,
-        "text": "Close"
+      {
+        "title": "Faster uploads",
+        "description": "Rebuilt sample tables load quicker on large files."
+      },
+      {
+        "title": "Bug reports",
+        "description": "Join the community server to report issues or get help."
       }
+    ],
+    "buttons": [
+      {
+        "text": "Join Discord",
+        "action": "open",
+        "url": "https://discord.gg/your-invite",
+        "primary": true
+      },
+      {
+        "text": "Continue",
+        "action": "close",
+        "primary": false
+      }
+    ],
+    "theme": {
+      "primary": "#f0900a"
+    },
+    "footer": {
+      "text": "1dleryu X TikTok — Idleryu Studio"
     }
-  },
-
-  "maintenance": {
-    "enabled": true,
-    "title": "Maintenance",
-    "message": "Servers are currently under maintenance. Please try again later."
-  },
-
-  "popup": {
-    "animation": "fade",
-    "backdropBlur": true,
-    "dismissible": true
   }
 }
