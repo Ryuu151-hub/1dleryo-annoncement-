@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "id": "announcement-v3.6",
+  "id": "announcement-v3.5",
 
   "theme": {
     "background": "#0c0c0c",
@@ -16,7 +16,7 @@
   "announcement": {
     "enabled": true,
     "showOnce": true,
-    "title": "Welcome to 1dleryu X TikTok V3.6",
+    "title": "Welcome to 1dleryu X TikTok V3.5",
     "subtitle": "Thanks for downloading!",
     "message": "We've improved performance, stability, and added a new update system.",
     "button": {
@@ -27,8 +27,8 @@
 
   "update": {
     "enabled": true,
-    "latestVersion": "3.6",
-    "minimumVersion": "3.6",
+    "latestVersion": "3.5",
+    "minimumVersion": "3.5",
     "forceUpdate": true,
 
     "blacklist": [
@@ -51,7 +51,7 @@
   },
 
   "maintenance": {
-    "enabled": false,
+    "enabled": true,
     "title": "Maintenance",
     "message": "Servers are currently under maintenance. Please try again later."
   },
