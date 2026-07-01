@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "blockedVersions": [],
+  "blockedVersions": [3.5],
   "announcement": {
     "badge": "UPDATE",
     "header": {
