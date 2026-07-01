@@ -1,1 +1,10 @@
+{
+  "latestVersion": "3.6",
+  "minimumVersion": "3.6",
+  "blacklist": [
+    "3.5"
+  ],
+  "updateTitle": "Update Required",
+  "updateMessage": "Your extension version is no longer supported. Please update to continue."
+}
 
