@@ -1,7 +1,7 @@
 {
   "entries": [
     {
-      "version": "3.5",
+      "version": "3.6",
       "date": "2026-07-01",
       "changes": [
         "Fixed FPS patch audio desync on some devices",
@@ -10,7 +10,7 @@
       ]
     },
     {
-      "version": "3.4",
+      "version": "3.5",
       "date": "2026-06-15",
       "changes": [
         "Improved MP4 box parser reliability",
