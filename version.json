@@ -1,8 +1,8 @@
 {
-  "latestVersion": "3.6",
-  "minimumVersion": "3.6",
+  "latestVersion": "3.6",      // Change to the newest version
+  "minimumVersion": "3.6",     // Lowest version you want to allow
   "blacklist": [
-    "3.5"
+    "3.5"                      // Versions you want to block
   ],
   "updateTitle": "Update Required",
   "updateMessage": "Your extension version is no longer supported. Please update to continue."
