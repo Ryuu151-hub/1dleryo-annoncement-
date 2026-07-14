@@ -9,7 +9,7 @@
   "announcement": {
     "id": "ann-2026-07-14",
     "showOnce": false,
-    "dismissible": false,
+    "dismissible": true,
 
     "badge": "Update",
 
@@ -47,7 +47,7 @@
       {
         "text": "Get latest version",
         "action": "open",
-        "url": "https://telegram.me/loverielle76",
+        "url": "https://github.com/Ryuu151-hub/1dleryu-announcement",
         "primary": true
       }
     ],
