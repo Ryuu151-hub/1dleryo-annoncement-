@@ -1,0 +1,4 @@
+{
+  "note": "Reserved for future feature flags / remote config. Not currently read by popup.js.",
+  "features": {}
+}

@@ -1,16 +1,59 @@
-
 {
-  "id": "update-required-v4",
-  "type": "update_required",
-  "badge": "Update Required",
-  "headline": "Extension Is Outdated",
-  "subtext": "Some features may stop working until you update to the latest version.",
-  "versionFrom": "v3",
-  "versionTo": "v4",
-  "cta": {
-    "label": "Download Update",
-    "url": "https://telegram.me/loverielle76"
-  },
-  "footnote": "IDLERYU • STUDIO"
-}
+  "enabled": true,
 
+  "blockedVersions": ["3.5"],
+  "blockTitle": "Update required",
+  "blockMessage": "This version is no longer supported. Please install the latest version.",
+  "latestVersion": "4.0",
+
+  "announcement": {
+    "id": "ann-2026-07-14",
+    "showOnce": false,
+    "dismissible": false,
+
+    "badge": "Update",
+
+    "header": {
+      "title": "What's new",
+      "subtitle": "1dleryu X TikTok"
+    },
+
+    "content": {
+      "title": "Version 4.0 is here",
+      "message": "This build adds the dynamic island status widget, a rebuilt uploader, and fixes the metadata patch pipeline. Older versions are no longer supported."
+    },
+
+    "cards": [
+      {
+        "title": "Dynamic Island",
+        "description": "Live upload status shown directly on the TikTok upload page."
+      },
+      {
+        "title": "Faster patching",
+        "description": "Rebuilt MP4 metadata patcher for higher-quality uploads."
+      },
+      {
+        "title": "Stability fixes",
+        "description": "Resolved issues affecting versions prior to 4.0."
+      }
+    ],
+
+    "theme": {
+      "primary": "#f0900a",
+      "primaryGlow": "rgba(240,144,10,0.12)"
+    },
+
+    "buttons": [
+      {
+        "text": "Get latest version",
+        "action": "open",
+        "url": "https://telegram.me/loverielle76",
+        "primary": true
+      }
+    ],
+
+    "footer": {
+      "text": "1dleryu X TikTok — v4.0"
+    }
+  }
+}
