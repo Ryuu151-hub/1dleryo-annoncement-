@@ -1,8 +1,8 @@
 
 {
-  "latestVersion": "3.5",
+  "latestVersion": "3.7",
   "minSupportedVersion": "3.0",
-  "blockedVersions": [],
+  "blockedVersions": [3.6],
   "blockTitle": "Update required",
   "blockMessage": "This version is no longer supported. Please reinstall the latest version.",
   "updatedAt": "2026-07-01"
