@@ -1,9 +1,0 @@
-
-{
-  "latestVersion": "4.1",
-  "minSupportedVersion": "4.0",
-  "blockedVersions": [3],
-  "blockTitle": "Update required",
-  "blockMessage": "This version is no longer supported. Please reinstall the latest version.",
-  "updatedAt": "2026-07-14"
-}
