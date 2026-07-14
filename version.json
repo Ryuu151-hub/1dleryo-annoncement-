@@ -1,6 +1,7 @@
 {
-  "latest": "4.0",
-  "minimum": "4.0",
-  "blocked": ["3.5"],
-  "updatedAt": "2026-07-14"
+  "extension": "1dleryu X TikTok",
+  "latestVersion": "v4",
+  "previousVersion": "v3",
+  "minimumRequiredVersion": "v4",
+  "forceUpdate": true
 }
